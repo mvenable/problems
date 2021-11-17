@@ -1,10 +1,11 @@
 package abbreviate_name_test
 
 import (
-	"asdf/go/codewars/abbreviate_name"
 	"fmt"
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/mvenable/problems/go/codewars/abbreviate_name"
+	"github.com/stretchr/testify/assert"
 )
 
 type TestCase struct {

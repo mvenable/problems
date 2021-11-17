@@ -1,10 +1,11 @@
 package consecutive_strings_test
 
 import (
-	"asdf/go/codewars/consecutive_strings"
 	"fmt"
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/mvenable/problems/go/codewars/consecutive_strings"
+	"github.com/stretchr/testify/assert"
 )
 
 type TestCase struct {

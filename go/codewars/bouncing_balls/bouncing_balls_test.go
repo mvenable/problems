@@ -1,10 +1,11 @@
 package bouncing_balls_test
 
 import (
-	"asdf/go/codewars/bouncing_balls"
 	"fmt"
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/mvenable/problems/go/codewars/bouncing_balls"
+	"github.com/stretchr/testify/assert"
 )
 
 type TestCase struct {

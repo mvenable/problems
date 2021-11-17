@@ -1,10 +1,11 @@
 package in_array_test
 
 import (
-	"asdf/go/codewars/in_array"
 	"fmt"
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/mvenable/problems/go/codewars/in_array"
+	"github.com/stretchr/testify/assert"
 )
 
 type TestCase struct {

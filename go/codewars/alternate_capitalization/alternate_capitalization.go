@@ -20,9 +20,9 @@ func Capitalize(originalString string) (string, string) {
 	i := 0
 	for pos, char := range originalString {
 		upperCaseRune := unicode.ToUpper(char)
-		if i % 2 == 0 {
+		if i%2 == 0 {
 			evenStr[pos] = upperCaseRune
-		}  else {
+		} else {
 			oddStr[pos] = upperCaseRune
 		}
 		i++

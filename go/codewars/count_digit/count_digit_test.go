@@ -1,10 +1,11 @@
 package count_digit_test
 
 import (
-	"asdf/go/codewars/count_digit"
 	"fmt"
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/mvenable/problems/go/codewars/count_digit"
+	"github.com/stretchr/testify/assert"
 )
 
 type TestCase struct {

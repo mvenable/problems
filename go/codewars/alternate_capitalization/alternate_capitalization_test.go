@@ -1,10 +1,11 @@
 package alternate_capitalization_test
 
 import (
-	"asdf/go/codewars/alternate_capitalization"
 	"fmt"
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/mvenable/problems/go/codewars/alternate_capitalization"
+	"github.com/stretchr/testify/assert"
 )
 
 type TestCase struct {
@@ -20,7 +21,7 @@ type Result struct {
 
 var matrix = []TestCase{
 	{
-		Name: "Example Test 1",
+		Name:  "Example Test 1",
 		Input: "abcdef",
 		Expected: Result{
 			EvenCapitalized: "AbCdEf",

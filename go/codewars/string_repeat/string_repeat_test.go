@@ -1,10 +1,11 @@
 package string_repeat_test
 
 import (
-	"asdf/go/codewars/string_repeat"
 	"fmt"
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/mvenable/problems/go/codewars/string_repeat"
+	"github.com/stretchr/testify/assert"
 )
 
 type TestCase struct {

@@ -1,10 +1,11 @@
 package look_and_say_test
 
 import (
-	"asdf/go/facebook/look_and_say"
 	"fmt"
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/mvenable/problems/go/facebook/look_and_say"
+	"github.com/stretchr/testify/assert"
 )
 
 type TestCase struct {

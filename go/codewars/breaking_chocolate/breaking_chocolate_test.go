@@ -1,10 +1,11 @@
 package breaking_chocolate_test
 
 import (
-	"asdf/go/codewars/breaking_chocolate"
 	"fmt"
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/mvenable/problems/go/codewars/breaking_chocolate"
+	"github.com/stretchr/testify/assert"
 )
 
 type TestCase struct {

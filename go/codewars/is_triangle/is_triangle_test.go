@@ -1,10 +1,11 @@
 package is_triangle_test
 
 import (
-	"asdf/go/codewars/is_triangle"
 	"fmt"
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/mvenable/problems/go/codewars/is_triangle"
+	"github.com/stretchr/testify/assert"
 )
 
 type TestCase struct {
@@ -15,18 +16,18 @@ type TestCase struct {
 
 var matrix = []TestCase{
 	{
-		Name: "Example Test 1",
-		Input: [3]int{5, 1, 2},
+		Name:     "Example Test 1",
+		Input:    [3]int{5, 1, 2},
 		Expected: false,
 	},
 	{
-		Name: "Example Test 2",
-		Input: [3]int{2, 5, 1},
+		Name:     "Example Test 2",
+		Input:    [3]int{2, 5, 1},
 		Expected: false,
 	},
 	{
-		Name: "Example Test 3",
-		Input: [3]int{4, 2, 3},
+		Name:     "Example Test 3",
+		Input:    [3]int{4, 2, 3},
 		Expected: true,
 	},
 }

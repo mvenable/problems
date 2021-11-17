@@ -1,10 +1,11 @@
 package edit_distance_test
 
 import (
-	"asdf/go/facebook/edit_distance"
 	"fmt"
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/mvenable/problems/go/facebook/edit_distance"
+	"github.com/stretchr/testify/assert"
 )
 
 type TestCase struct {
@@ -20,57 +21,57 @@ type Params struct {
 
 var matrix = []TestCase{
 	{
-		Name:     "Completely Different",
+		Name: "Completely Different",
 		Input: Params{
-			String1:  "cat",
-			String2:  "dog",
+			String1: "cat",
+			String2: "dog",
 		},
 		Expected: false,
 	},
 	{
-		Name:     "Second Suffix",
+		Name: "Second Suffix",
 		Input: Params{
-			String1:  "cat",
-			String2:  "cats",
+			String1: "cat",
+			String2: "cats",
 		},
 		Expected: true,
 	},
 	{
-		Name:     "Middle Different",
+		Name: "Middle Different",
 		Input: Params{
-			String1:  "cat",
-			String2:  "cut",
+			String1: "cat",
+			String2: "cut",
 		},
 		Expected: true,
 	},
 	{
-		Name:     "Middle Different - Length",
+		Name: "Middle Different - Length",
 		Input: Params{
-			String1:  "cat",
-			String2:  "cast",
+			String1: "cat",
+			String2: "cast",
 		},
 		Expected: true,
 	},
 	{
-		Name:     "Missing Prefix",
+		Name: "Missing Prefix",
 		Input: Params{
-			String1:  "cat",
-			String2:  "at",
+			String1: "cat",
+			String2: "at",
 		},
 		Expected: true,
 	}, {
-		Name:     "Swapped Letters",
+		Name: "Swapped Letters",
 		Input: Params{
-			String1:  "cat",
-			String2:  "act",
+			String1: "cat",
+			String2: "act",
 		},
 		Expected: false,
 	},
 	{
-		Name:     "UTF-8 rune length",
+		Name: "UTF-8 rune length",
 		Input: Params{
-			String1:  "日at",
-			String2:  "at",
+			String1: "日at",
+			String2: "at",
 		},
 		Expected: true,
 	},

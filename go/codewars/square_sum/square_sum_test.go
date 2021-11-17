@@ -1,10 +1,11 @@
 package square_sum_test
 
 import (
-	"asdf/go/codewars/square_sum"
 	"fmt"
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/mvenable/problems/go/codewars/square_sum"
+	"github.com/stretchr/testify/assert"
 )
 
 type TestCase struct {

@@ -1,10 +1,11 @@
 package phone_number_test
 
 import (
-	"asdf/go/codewars/phone_number"
 	"fmt"
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/mvenable/problems/go/codewars/phone_number"
+	"github.com/stretchr/testify/assert"
 )
 
 type TestCase struct {

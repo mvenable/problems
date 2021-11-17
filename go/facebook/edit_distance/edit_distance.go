@@ -1,7 +1,7 @@
 package edit_distance
 
 import (
-"unicode/utf8"
+	"unicode/utf8"
 )
 
 func OneEditApart(s1, s2 string) bool {
@@ -41,4 +41,3 @@ func OneEditApart(s1, s2 string) bool {
 
 	return true
 }
-
